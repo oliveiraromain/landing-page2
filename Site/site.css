@@ -1,0 +1,314 @@
+/*----------------------------------------BODY-------------------------------------------------*/
+
+body{
+    background-color: #FCF389;
+    font-size: xx-large;
+}
+
+/*----------------------------------------MAIN-------------------------------------------------*/
+main{
+    background-color: #FCF389;
+    color: black;
+    font-family: 'Rubik Dirt', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titre1{
+    display: flex;
+    justify-content: center;
+}
+
+main ul{
+    display: flex;
+    flex-direction: row;
+}
+/*-----------------------------------------HEADER---------------------------------------------------*/
+
+
+.perso{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: black;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: large;
+    color: green;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+
+/*---------------------------------------BOUTONS ACHETER ABONNEMENT PACKS ET RECHERCHER--------------------------------------------------*/
+
+.bouton:hover {
+  background-color: rgb(85, 87, 83);
+  color: white;
+}
+
+
+.bouton {
+    background-color: black;
+    Color:rgb(255, 255, 255); /*Couleur du texte dans le bouton*/
+    font-weight: bold;
+    padding: 10px 30px; /* espace des côtés du bouton par rapport à ton texte */
+    border-radius: 2px;
+    cursor: pointer; 
+    box-shadow: 0 2px 14px 0 grey;/*taille et couleur de l'ombre*/
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*-------------------------------------------BOUTON PANIER ET IMAGE COMPTE-----------------------------------------------------------*/
+
+.boutonpanier{
+    background-color: black;
+    Color:rgb(255, 255, 255); /*Couleur du texte dans le bouton*/
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 2px;
+    cursor: pointer; 
+    box-shadow: 0 2px 14px 0 grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+.boutonpanier:hover {
+    background-color: rgb(85, 87, 83);
+    color: white;
+  }
+
+
+
+.image_compte{
+    font-size:24px;
+    cursor:pointer;
+    width: 60px ;
+    height:60px;
+    border-radius:50%;
+    box-shadow: 0 2px 14px 0 grey;
+    margin-top : 10px; margin-right : 10px ;
+}
+
+
+.image_compte:hover {
+    background-color: rgb(85, 87, 83);
+    color: white;
+  }
+
+/*-------------------------------------------------FOOTER-------------------------------------------------------*/
+footer{
+    margin-top: 1em;
+    background-color: black;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: large;
+    color: green;
+    font-size: xx-large;
+    display: flex;  
+    justify-content: space-around;
+    align-content: center; 
+    background-color: black;
+    font-family: 'Rubik Dirt', cursive;
+    margin-bottom: 1em;
+
+}
+
+
+.bouton_footer{
+    background-color: black;
+    Color:rgb(255, 255, 255); /*Couleur du texte dans le bouton*/
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 2px;
+    cursor: pointer; 
+    box-shadow: 0 2px 14px 0 grey;
+    text-decoration: none;   
+    margin-top: 1em;    
+    display: flex;
+        justify-content :center;
+        margin-bottom : 30px ;
+}
+.bouton_footer:hover {
+    background-color: rgb(85, 87, 83);
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------RESPONSIVE IPAD AIR----------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (width : 820px){
+/*----------------------------------------BODY-------------------------------------------------*/
+
+body{
+    background-color: #FCF389;
+    font-size: xx-large;
+}
+
+/*----------------------------------------MAIN-------------------------------------------------*/
+main{
+    background-color: #FCF389;
+    color: black;
+    font-family: 'Rubik Dirt', cursive;
+    display: flex;
+    font-size: 80%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main ul{
+    font-size: 55%;
+}
+
+/*-----------------------------------------HEADER---------------------------------------------------*/
+
+.LOGOAEKLYS{
+    width: 20%;
+
+}
+
+.perso{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: black;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 50%;
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+
+/*---------------------------------------BOUTONS ACHETER ABONNEMENT PACKS ET RECHERCHER--------------------------------------------------*/
+
+.bouton:hover {
+  background-color: rgb(85, 87, 83);
+  color: white;
+}
+
+
+.bouton {
+    background-color: black;
+    Color:rgb(255, 255, 255); /*Couleur du texte dans le bouton*/
+    font-weight: bold;
+    padding: 5px 15px; /* espace des côtés du bouton par rapport à ton texte */
+    border-radius: 1px;
+    cursor: pointer; 
+    box-shadow: 0 1px 7px 0 grey;/*taille et couleur de l'ombre*/
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+/*-------------------------------------------BOUTON PANIER ET IMAGE COMPTE-----------------------------------------------------------*/
+
+.boutonpanier{
+    background-color: black;
+    Color:rgb(255, 255, 255); /*Couleur du texte dans le bouton*/
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 1px;
+    cursor: pointer; 
+    box-shadow: 0 1px 7px 0 grey;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+.boutonpanier:hover {
+    background-color: rgb(85, 87, 83);
+    color: white;
+  }
+
+
+
+.image_compte{
+    font-size:24px;
+    cursor:pointer;
+    width: 30px ;
+    height:30px;
+    border-radius:50%;
+    box-shadow: 0 2px 14px 0 grey;
+    margin-top : 5px; margin-right : 5px ;
+}
+
+
+.image_compte:hover {
+    background-color: rgb(85, 87, 83);
+    color: white;
+  }
+
+/*-------------------------------------------------FOOTER-------------------------------------------------------*/
+footer{
+    margin-top: 1em;
+    background-color: black;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: large;
+    color: green;
+    font-size: xx-large;
+    display: flex;  
+    justify-content: space-around;
+    align-content: center; 
+    background-color: black;
+    font-family: 'Rubik Dirt', cursive;
+    margin-bottom: 1em;
+
+}
+
+
+.bouton_footer{
+    background-color: black;
+    Color:rgb(255, 255, 255); /*Couleur du texte dans le bouton*/
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 2px;
+    cursor: pointer; 
+    box-shadow: 0 2px 14px 0 grey;
+    text-decoration: none;   
+    margin-top: 1em;    
+    display: flex;
+        justify-content :center;
+        margin-bottom : 30px ;
+}
+.bouton_footer:hover {
+    background-color: rgb(85, 87, 83);
+    color: white;
+  }
+
+}
+
+
+
+
+
+
